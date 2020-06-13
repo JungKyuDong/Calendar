@@ -8,7 +8,6 @@ public class Prompt {
 		if(week.equals("SU")) {
 			return 0;
 		}
-		
 		else if(week.equals("MO")) {
 			return 1;
 		}
