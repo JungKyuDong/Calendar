@@ -78,7 +78,7 @@ public class Calendar_complete {
 		
 		count += day; // 1/1은 count 1이 된다
 		
-		int weekday = (count + STANDARD_WEEKDAY) % 7; // 날짜에 해당되는 요일은 계산해준다
+		int weekday = (count + STANDARD_WEEKDAY) % 7; // 날짜에 해당되는 요일을 계산해준다
 		return weekday;
 	}
 	
