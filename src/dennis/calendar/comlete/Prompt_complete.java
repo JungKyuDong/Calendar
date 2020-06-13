@@ -41,6 +41,5 @@ public class Prompt_complete {
 		Prompt_complete p = new Prompt_complete();
 		p.runPrompt();
 			
-
 	}
 }
