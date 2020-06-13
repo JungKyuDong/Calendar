@@ -62,7 +62,7 @@ public class Calendar_complete {
 		// 1970년  1월 1일 -> 컴퓨터 하드웨어 시간의 기준 날짜
 		
 		int syear = 1970;
-		final int STANDARD_WEEKDAY = 3; // 1970/Jan/1st = Thursday
+		final int STANDARD_WEEKDAY = 4; // 1970/Jan/1st = Thursday
 		
 		int count = 0; // 총일수 합산
 		
@@ -76,7 +76,7 @@ public class Calendar_complete {
 			count += delta;
 		}
 		
-		count += day; // 1/1은 count 1이 된다
+		count += day - 1; // 1/1은 count 1이 된다
 		
 		int weekday = (count + STANDARD_WEEKDAY) % 7; // 날짜에 해당되는 요일을 계산해준다
 		return weekday;
