@@ -1,6 +1,6 @@
-package dennis.calendar;
+package dennis.calendar.origin;
 
-public class Calendar {
+public class Calendar_origin {
 
 		private static final int[] MAX_DAYS = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31,30, 31};
 		private static final int[] Leap_MAX_DAYS = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31,30, 31}; // 윤년

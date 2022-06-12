@@ -1,8 +1,8 @@
-package dennis.calendar;
+package dennis.calendar.origin;
 
 import java.util.Scanner;
 
-public class Prompt {
+public class Prompt_origin {
 	
 	public int parseDay(String week)	{
 		if(week.equals("SU")) {
@@ -32,7 +32,7 @@ public class Prompt {
 	
 	public void runPrompt() {
 		Scanner sc = new Scanner(System.in);
-		Calendar cal = new Calendar();
+		Calendar_origin cal = new Calendar_origin();
 		
 		int month = 1;
 		int year = 2020;
@@ -68,7 +68,7 @@ public class Prompt {
 	public static void main(String[] args) {
 		
 		// 셀 실행
-		Prompt p = new Prompt();
+		Prompt_origin p = new Prompt_origin();
 		p.runPrompt();
 			
 
