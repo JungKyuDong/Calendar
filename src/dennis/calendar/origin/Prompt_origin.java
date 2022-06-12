@@ -73,4 +73,6 @@ public class Prompt_origin {
 			
 
 	}
+	
+	public void test1() {}
 }

@@ -54,4 +54,6 @@ public class Calendar_origin {
 			System.out.println();
 			
 	}
+		
+	public void test_test1() {}
 }
