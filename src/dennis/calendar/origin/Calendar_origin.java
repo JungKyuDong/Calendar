@@ -56,4 +56,8 @@ public class Calendar_origin {
 	}
 		
 	public void test_test1() {}
+		
+	public void test() {
+		
+	}
 }
