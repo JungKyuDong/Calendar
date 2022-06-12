@@ -74,9 +74,6 @@ public class Prompt_origin {
 
 	}
 	
-<<<<<<< HEAD
-	public void test1() {}
-=======
 	public void test_test() {}
->>>>>>> branch 'master' of https://github.com/JungKyuDong/java-calendar
+
 }
